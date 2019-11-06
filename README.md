@@ -35,8 +35,11 @@ Beside the UI(client) we can use the curl command:\
 Also, we can use the swagger ui to request to the sort endpoint(http://localhost:8080/swagger-ui.html)\
 The swagger ui for this project:
 ![image](https://drive.google.com/uc?export=view&id=1KHn-8lD35K3JDC-__9A6L3rPZwe9NiaJ)
-Hoever I have embed Swagger in this project you can use Postman or any kinds of Rest Client applications to request to this app and use data.json for input list.\
-  
+Hoever I have embed Swagger in this project you can use Postman or any kinds of Rest Client applications to request to this app and use data.json for input list.
+![image](https://drive.google.com/uc?export=view&id=1w74SQi6zSPtyt-82sqHpay-K29IOk-3R)
+postman sample\
+
+
 More Information:\
 I have used jacoco for reporting the project test coverage:\
 ![image](https://drive.google.com/uc?export=view&id=1drx1VBen9ft40PiIzZfaPBI9NS9FpiJl)\
