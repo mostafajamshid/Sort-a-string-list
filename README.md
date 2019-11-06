@@ -44,6 +44,7 @@ For see the report and further details you can check it out on /target/site/jaco
 ***Important points:***\
  For ensuring that the returned list is sorted or not I have wrriten Integration Test on server side and also check it on client side separately.\
  One more thing I would to say I could write a another spring boot project for client But I have tried to keep the solution as simple as possible.\
+ The last thing I would to say that is about sort method and algorithm at first I wrote a custom merge sort becuase as far as I know merge sort is one of the best sorting algorithms (O(n log n) for time and O(n) for space) But after I checked  Arrays.sort() method's source code from java.util I changed my mind, becuase they have used merge sort too.\
 Have a nice review :) \
 If you have any questions or anything else please do not hesitate to contact me.\
 Email:mostafa.jamshid@gmail.com
