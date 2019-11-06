@@ -5,6 +5,7 @@ This project has implemented by:
 
 ***-Java 8***\
 ***-Spring Boot 2.2.0***\
+***-Maven 3.3.9***\
 ***-bootstrap 4.2.1***\
 ***-swagger 2.9.2***\
 ***-jacoco 0.8.2***\
@@ -13,10 +14,10 @@ This project has implemented by:
 The Project Structure:\
 ![image](https://drive.google.com/uc?export=view&id=1OgVVWvJft45i8q-wpO9dBZY280s52Sfn)
 \
-For run this project use below commands(run from the main folder):
+For run this project use below commands(run from the main folder):\
 `mvn clean package`\
 `java -jar target/challenge-0.0.1-SNAPSHOT.jar`\
-After these commands you can see the application on http://localhost:8080/sorting-app (like next picture)
+After execute these commands you can see the application on http://localhost:8080/sorting-app (like next picture)
 \
 
 Let's begin with the client side view of the app\
