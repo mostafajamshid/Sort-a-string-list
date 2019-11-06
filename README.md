@@ -1,8 +1,9 @@
 This project is a simple app for sorting a string list
 - There is a server part that offers a REST+JSON interface with a method that receives a list of Strings and returns the Strings sorted
 - There is a client part that transfers an unsorted list of Strings to the server and ensures that the returned list is sorted\
+\
+\
 This project has implemented by:
-
 ***-Java 8***\
 ***-Spring Boot 2.2.0***\
 ***-Maven 3.3.9***\
