@@ -3,7 +3,7 @@ This project is a simple app for sorting a string list
 - There is a client part that transfers an unsorted list of Strings to the server and ensures that the returned list is sorted\
 \
 \
-This project has implemented by:
+This project has implemented by:\
 ***-Java 8***\
 ***-Spring Boot 2.2.0***\
 ***-Maven 3.3.9***\
