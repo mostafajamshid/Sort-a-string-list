@@ -41,7 +41,7 @@ More Information:\
 I have used jacoco for reporting the project test coverage:\
 ![image](https://drive.google.com/uc?export=view&id=1drx1VBen9ft40PiIzZfaPBI9NS9FpiJl)\
 For see the report and further details you can check it out on /target/site/jacoco/index.html\
-***Important point:***\
+***Important points:***\
  For ensuring that the returned list is sorted or not I have wrriten Integration Test on server side and also check it on client side separately.\
  One more thing I would to say I could write a another spring boot project for client But I have tried to keep the solution as simple as possible.\
 Have a nice deploy :) \
