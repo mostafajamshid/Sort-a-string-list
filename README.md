@@ -10,6 +10,9 @@ This project has implemented by:
 ***-jacoco 0.8.2***\
 ***-JUnit 5***
 
+The Project Structure:\
+![image](https://drive.google.com/uc?export=view&id=1Y4ciJnScopCUtqxEeAD8oQ9mdy-lHAAc)
+\
 Let's begin with the client side view of the app\
 Here we can enter data as a comma seprated unsorted list, we have client side verification for valid or invalid sorted list
 ![image](https://drive.google.com/uc?export=view&id=14Z6JSZg3OJ6xxcUYsmmqjk4Rn3xMXMhH)
@@ -18,6 +21,10 @@ If the return list is unsorted, a appropriate message will be displayed.
 \
  ![image](https://drive.google.com/uc?export=view&id=1GkldIYnAI8qZ2OZcNRWy0s3dT0ZlcnT5)
  
+Beside the UI(client) we can use the curl command:\
+`curl -d "@data.json"  -H "Content-Type: application/json"  -X POST http://localhost:8080/sorting-app/sort` 
+
+
 
 The swagger ui for this project:\
 ![image](https://drive.google.com/uc?export=view&id=1KHn-8lD35K3JDC-__9A6L3rPZwe9NiaJ)
@@ -28,6 +35,4 @@ The swagger ui for this project:\
 
 
 
-
-curl -d "@data.json"  -H "Content-Type: application/json"  -X POST http://localhost:8080/sort
-
+ 
