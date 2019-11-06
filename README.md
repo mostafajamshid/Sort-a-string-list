@@ -17,7 +17,7 @@ The Project Structure:\
 For run this project use below commands(run from the main folder):\
 `mvn clean package`\
 `java -jar target/challenge-0.0.1-SNAPSHOT.jar`\
-After execute these commands you can see the application on http://localhost:8080/sorting-app (like next picture)
+After execute these commands You will be able to see the application on http://localhost:8080/sorting-app (like next picture)
 
 
 Let's begin with the client side view of the app\
