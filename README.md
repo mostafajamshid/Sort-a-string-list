@@ -37,7 +37,7 @@ The swagger ui for this project:
 ![image](https://drive.google.com/uc?export=view&id=1KHn-8lD35K3JDC-__9A6L3rPZwe9NiaJ)
 However I have embed Swagger-ui in this project,But you can use Postman or any kinds of Rest Client applications to request to this app and use data.json for input list.
 ![image](https://drive.google.com/uc?export=view&id=1w74SQi6zSPtyt-82sqHpay-K29IOk-3R)
-postman sample\
+postman sample.
 
 
 More Information:\
