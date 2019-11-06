@@ -32,7 +32,7 @@ Beside the UI(client) we can use the curl command:\
 `curl -d "@data.json"  -H "Content-Type: application/json"  -X POST http://localhost:8080/sorting-app/sort`\
 ![image](https://drive.google.com/uc?export=view&id=1SL2qzdSvV15Ro67e-0N3EZaagzv5GyLf)\
 
-Also, we can use the swagger ui to request to the sort endpoint(http://localhost:8080/swagger-ui.html)
+Also, we can use the swagger ui to request to the sort endpoint(http://localhost:8080/swagger-ui.html)\
 The swagger ui for this project:
 ![image](https://drive.google.com/uc?export=view&id=1KHn-8lD35K3JDC-__9A6L3rPZwe9NiaJ)
 Hoever I have embed Swagger in this project you can use Postman or any kinds of Rest Client applications to request to this app and use data.json for input list.\
@@ -40,11 +40,11 @@ Hoever I have embed Swagger in this project you can use Postman or any kinds of 
 More Information:\
 I have used jacoco for reporting the project test coverage:\
 ![image](https://drive.google.com/uc?export=view&id=1drx1VBen9ft40PiIzZfaPBI9NS9FpiJl)\
-For see the report and further details you can check it out on /target/site/jacoco/index.html
+For see the report and further details you can check it out on /target/site/jacoco/index.html\
 ***Important point:***\
- For ensuring that the returned list is sorted or not I have wrriten Integration Test on server side and also check it on client side separately. 
-Have a nice deploy :)
-If you have any questions or anything else please do not hesitate to contact me.
+ For ensuring that the returned list is sorted or not I have wrriten Integration Test on server side and also check it on client side separately.\
+Have a nice deploy :) \
+If you have any questions or anything else please do not hesitate to contact me.\
 Email:mostafa.jamshid@gmail.com
 
 
