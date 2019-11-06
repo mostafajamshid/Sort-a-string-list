@@ -28,7 +28,7 @@ function fire_ajax_submit() {
             setSortButtonDisable(false);
         },
         error: function (e) {
-            var json = "<h4>Ajax Response</h4><pre>" + e.responseText + "</pre>";
+            var json = "<h4>Result (the sorted string list):</h4><pre>" + e.responseText + "</pre>";
             setResponseContent(json);
             setSortButtonDisable(false);
 
