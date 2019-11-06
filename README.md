@@ -29,12 +29,12 @@ If the return list is unsorted, a appropriate message will be displayed.
  ![image](https://drive.google.com/uc?export=view&id=1GkldIYnAI8qZ2OZcNRWy0s3dT0ZlcnT5)
  
 Beside the UI(client) we can use the curl command:\
-`curl -d "@data.json"  -H "Content-Type: application/json"  -X POST http://localhost:8080/sorting-app/sort` 
+`curl -d "@data.json"  -H "Content-Type: application/json"  -X POST http://localhost:8080/sorting-app/sort`\
+![image](https://drive.google.com/uc?export=view&id=1SL2qzdSvV15Ro67e-0N3EZaagzv5GyLf)\
 
-
-Also, we can use the swagger ui to request to the sort endpoint\
-The swagger ui for this project:\
-![image](https://drive.google.com/uc?export=view&id=1KHn-8lD35K3JDC-__9A6L3rPZwe9NiaJ)\
+Also, we can use the swagger ui to request to the sort endpoint(http://localhost:8080/swagger-ui.html)
+The swagger ui for this project:
+![image](https://drive.google.com/uc?export=view&id=1KHn-8lD35K3JDC-__9A6L3rPZwe9NiaJ)
 Hoever I have embed Swagger in this project you can use Postman or any kinds of Rest Client applications to request to this app and use data.json for input list.\
   
 More Information:\
