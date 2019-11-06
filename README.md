@@ -18,10 +18,10 @@ For run this project use below commands(run from the main folder):\
 `mvn clean package`\
 `java -jar target/challenge-0.0.1-SNAPSHOT.jar`\
 After execute these commands you can see the application on http://localhost:8080/sorting-app (like next picture)
-\
+
 
 Let's begin with the client side view of the app\
-Here we can enter data as a comma seprated unsorted list, we have client side verification for valid or invalid sorted list
+Here we can enter data as a comma seprated unsorted list, we have client side verification for valid or invalid returned list\
 ![image](https://drive.google.com/uc?export=view&id=14Z6JSZg3OJ6xxcUYsmmqjk4Rn3xMXMhH)
 \
 If the return list is unsorted, a appropriate message will be displayed.
@@ -34,10 +34,18 @@ Beside the UI(client) we can use the curl command:\
 
 
 The swagger ui for this project:\
-![image](https://drive.google.com/uc?export=view&id=1KHn-8lD35K3JDC-__9A6L3rPZwe9NiaJ)
+![image](https://drive.google.com/uc?export=view&id=1KHn-8lD35K3JDC-__9A6L3rPZwe9NiaJ)\
+Hoever I have embed Swagger in this project you can use Postman or any kinds of Rest Client applications to request to this app and use data.json for input list.\
   
-![image](https://drive.google.com/uc?export=view&id=1drx1VBen9ft40PiIzZfaPBI9NS9FpiJl)
- 
+More Information:\
+I have used jacoco for reporting the project test coverage:\
+![image](https://drive.google.com/uc?export=view&id=1drx1VBen9ft40PiIzZfaPBI9NS9FpiJl)\
+For see the report and further details you can check it out on /target/site/jacoco/index.html
+***Important point:***\
+ For ensuring that the returned list is sorted or not I have wrriten Integration Test on server side and also check it on client side separately. 
+Have a nice deploy :)
+If you have any questions or anything else please do not hesitate to contact me.
+Email:mostafa.jamshid@gmail.com
 
 
 
