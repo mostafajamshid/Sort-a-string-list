@@ -1,5 +1,6 @@
 package com.gam.challenge;
 
+import com.gam.challenge.service.SortService;
 import org.junit.jupiter.api.Test;
 
 import java.util.UUID;
@@ -39,6 +40,11 @@ class SortServiceTest {
 
         String[] sorted2 = service.sort(new String[]{"b", "a", "c", "d", "e", "a", "b"});
         assertTrue(isSortedArray(sorted2));
+    }
+
+    @Test
+    void whenGivenInputStartWithNull_shouldThrowsIllegalArgumentException() {
+        assertThrows(IllegalArgumentException.class, () -> service.sort(new String[]{null, "b", "a"}));
     }
 
     @Test

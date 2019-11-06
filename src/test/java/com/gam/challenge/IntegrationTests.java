@@ -1,5 +1,7 @@
 package com.gam.challenge;
 
+import com.gam.challenge.model.SortRequest;
+import com.gam.challenge.model.SortResponse;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -31,7 +33,7 @@ class IntegrationTests {
     }
 
     private void whenGivenUnsortedArrayToSortEndpoint(SortRequest sortRequest) {
-        String url = "http://localhost:" + port + "/sort";
+        String url = "http://localhost:" + port + "/sorting-app/sort";
         response = restTemplate
                 .postForEntity(url, sortRequest, SortResponse.class);
     }

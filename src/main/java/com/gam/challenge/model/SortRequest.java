@@ -1,4 +1,4 @@
-package com.gam.challenge;
+package com.gam.challenge.model;
 
 public class SortRequest {
 
