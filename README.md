@@ -1,14 +1,14 @@
 This project is a simple app for sorting a string list
 - There is a server part that offers a REST+JSON interface with a method that receives a list of Strings and returns the Strings sorted
-- There is a client part that transfers an unsorted list of Strings to the server and ensures that the returned list is sorted
+- There is a client part that transfers an unsorted list of Strings to the server and ensures that the returned list is sorted\
 This project has implemented by:
 
 ***-Java 8***\
 ***-Spring Boot 2.2.0***\
 ***-Maven 3.3.9***\
-***-bootstrap 4.2.1***\
-***-swagger 2.9.2***\
-***-jacoco 0.8.2***\
+***-Bootstrap 4.2.1***\
+***-Swagger 2.9.2***\
+***-Jacoco 0.8.2***\
 ***-JUnit 5***
 
 The Project Structure:\
@@ -46,7 +46,7 @@ I have used jacoco for reporting the project test coverage:\
 For see the report and further details you can check it out on /target/site/jacoco/index.html\
 ***Important points:***\
  For ensuring that the returned list is sorted or not I have wrriten Integration Test on server side and also check it on client side separately.\
- One more thing I would to say I could write a another spring boot project for client But I have tried to keep the solution as simple as possible.\
+ One more thing I would to say I could write another spring boot project for client But I have tried to keep the solution as simple as possible.\
  The last thing I would to say is that, at the beginning I had written a custom merge sort method before I wrote this version becuase as far as I know merge sort is one of the best sorting algorithms (O(n log n) for time and O(n) for space) But after I checked Arrays.sort() method's source code from java.util I changed my mind, becuase they have already written merge sort for Arrays.sort().\
 Have a nice review :) \
 If you have any questions or anything else please do not hesitate to contact me.\
