@@ -15,17 +15,17 @@ This project has implemented by:\
 The Project Structure:\
 ![image](https://drive.google.com/uc?export=view&id=1OgVVWvJft45i8q-wpO9dBZY280s52Sfn)
 \
-For run this project use below commands(run from the main folder):\
+For run this project, the following command is needed (run from the main folder):\
 `mvn clean package`\
 `java -jar target/challenge-0.0.1-SNAPSHOT.jar`\
-After execute these commands You will be able to see the application on http://localhost:8080/sorting-app (like next picture)
+After executing these commands You will be able to see the application on http://localhost:8080/sorting-app (like the next picture)
 
 
 Let's begin with the client side view of the app\
 Here we can enter data as a comma seprated unsorted list, we have client side verification for valid or invalid returned list\
 ![image](https://drive.google.com/uc?export=view&id=14Z6JSZg3OJ6xxcUYsmmqjk4Rn3xMXMhH)
 \
-If the return list is unsorted, a appropriate message will be displayed.
+If the return list is unsorted, an appropriate message will be displayed.
 \
  ![image](https://drive.google.com/uc?export=view&id=1GkldIYnAI8qZ2OZcNRWy0s3dT0ZlcnT5)
  
