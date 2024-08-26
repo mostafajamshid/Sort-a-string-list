@@ -17,7 +17,7 @@
     <properties>
         <java.version>1.8</java.version>
         <bootstrap.version>4.2.1</bootstrap.version>
-        <swagger.version>2.9.2</swagger.version>
+        <swagger.version>2.10.0</swagger.version>
         <jacoco.version>0.8.2</jacoco.version>
     </properties>
 
